@@ -1,8 +1,7 @@
-package com.reflectoring.userdetails.mapper;
+package com.medium.userdetails.mapper;
 
-import com.reflectoring.userdetails.model.UserData;
-import com.reflectoring.userdetails.persistence.User;
-import org.mapstruct.Mapper;
+import com.medium.userdetails.model.UserData;
+import com.medium.userdetails.persistence.User;
 
 import java.util.List;
 import java.util.stream.Collectors;

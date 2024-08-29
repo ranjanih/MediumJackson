@@ -1,24 +1,19 @@
-package com.reflectoring;
+package com.medium;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.reflectoring.userdetails.model.UserData;
-import com.reflectoring.userdetails.model.UserType;
-import com.reflectoring.userdetails.model.UserTypeData;
-import com.reflectoring.userdetails.persistence.User;
-import com.reflectoring.userdetails.service.CommonBean;
-import com.reflectoring.util.MockedUsersUtility;
+import com.medium.userdetails.model.UserData;
+import com.medium.userdetails.model.UserType;
+import com.medium.userdetails.model.UserTypeData;
+import com.medium.userdetails.service.CommonBean;
+import com.medium.util.MockedUsersUtility;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import static com.reflectoring.util.MockedUsersUtility.*;
+import static com.medium.util.MockedUsersUtility.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

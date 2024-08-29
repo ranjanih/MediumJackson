@@ -1,4 +1,4 @@
-package com.reflectoring.page;
+package com.medium.page;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

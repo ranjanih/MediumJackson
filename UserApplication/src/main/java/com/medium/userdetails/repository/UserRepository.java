@@ -1,6 +1,6 @@
-package com.reflectoring.userdetails.repository;
+package com.medium.userdetails.repository;
 
-import com.reflectoring.userdetails.persistence.User;
+import com.medium.userdetails.persistence.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

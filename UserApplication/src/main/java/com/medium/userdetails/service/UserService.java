@@ -1,16 +1,14 @@
-package com.reflectoring.userdetails.service;
+package com.medium.userdetails.service;
 
-import com.reflectoring.userdetails.mapper.UserMapper;
-import com.reflectoring.userdetails.model.UserData;
-import com.reflectoring.userdetails.persistence.User;
-import com.reflectoring.userdetails.repository.UserRepository;
+import com.medium.userdetails.mapper.UserMapper;
+import com.medium.userdetails.model.UserData;
+import com.medium.userdetails.persistence.User;
+import com.medium.userdetails.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Objects;
 
 @Service
 public class UserService {

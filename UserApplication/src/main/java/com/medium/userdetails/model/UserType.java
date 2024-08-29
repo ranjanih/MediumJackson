@@ -1,9 +1,7 @@
-package com.reflectoring.userdetails.model;
+package com.medium.userdetails.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonValue;
-import com.reflectoring.userdetails.persistence.User;
 
 import java.util.NoSuchElementException;
 

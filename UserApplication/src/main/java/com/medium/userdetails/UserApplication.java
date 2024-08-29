@@ -1,4 +1,4 @@
-package com.reflectoring.userdetails;
+package com.medium.userdetails;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

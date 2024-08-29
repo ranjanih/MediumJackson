@@ -1,7 +1,7 @@
-package com.reflectoring.userdetails.web;
+package com.medium.userdetails.web;
 
-import com.reflectoring.userdetails.model.UserData;
-import com.reflectoring.userdetails.service.UserService;
+import com.medium.userdetails.model.UserData;
+import com.medium.userdetails.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;

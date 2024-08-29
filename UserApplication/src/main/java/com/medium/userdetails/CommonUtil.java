@@ -1,7 +1,4 @@
-package com.reflectoring.userdetails;
-
-import com.fasterxml.jackson.databind.MapperFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
+package com.medium.userdetails;
 
 import java.time.LocalDate;
 import java.time.Month;

@@ -1,10 +1,9 @@
-package com.reflectoring.web;
+package com.medium.web;
 
-import com.reflectoring.page.RestPageImpl;
-import com.reflectoring.userdetails.UserApplication;
-import com.reflectoring.userdetails.model.UserData;
-import com.reflectoring.userdetails.persistence.User;
-import com.reflectoring.userdetails.repository.UserRepository;
+import com.medium.page.RestPageImpl;
+import com.medium.userdetails.UserApplication;
+import com.medium.userdetails.model.UserData;
+import com.medium.userdetails.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -12,13 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-
-import java.util.Date;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

@@ -1,14 +1,9 @@
-package com.reflectoring.util;
+package com.medium.util;
 
-import com.reflectoring.userdetails.CommonUtil;
-import com.reflectoring.userdetails.model.UserData;
-import com.reflectoring.userdetails.model.UserType;
-import com.reflectoring.userdetails.model.UserTypeData;
+import com.medium.userdetails.model.UserData;
+import com.medium.userdetails.model.UserType;
+import com.medium.userdetails.model.UserTypeData;
 
-import java.nio.charset.StandardCharsets;
-import java.time.Month;
-import java.time.format.DateTimeFormatter;
-import java.util.Base64;
 import java.util.Map;
 
 public class MockedUsersUtility {

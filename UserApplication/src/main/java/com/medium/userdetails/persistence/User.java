@@ -1,10 +1,9 @@
-package com.reflectoring.userdetails.persistence;
+package com.medium.userdetails.persistence;
 
 import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.Date;
 
 @Entity

@@ -1,4 +1,4 @@
-package com.reflectoring.userdetails.model;
+package com.medium.userdetails.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
