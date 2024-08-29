@@ -1,6 +1,8 @@
 package com.medium.shallowdeepcopy;
 
 
+import com.medium.userdetails.model.shallowdeepcopy.Author;
+import com.medium.userdetails.model.shallowdeepcopy.Book;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
